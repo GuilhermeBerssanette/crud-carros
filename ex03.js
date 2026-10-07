@@ -505,7 +505,7 @@ function verDesempenho() {
 // FLASHCARD COM MAIS ERROS
 // =====================================
 
-function flashcardComMaisErros() {
+function flashCardsMaisErrados() {
 
   if (flashcards.length === 0) {
 
@@ -716,7 +716,7 @@ function mostrarMenu() {
 
       } else if (opcao === "10") {
 
-        flashcardComMaisErros();
+        flashCardsMaisErrados();
 
       } else if (opcao === "11") {
 
