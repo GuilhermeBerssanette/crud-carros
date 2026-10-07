@@ -545,7 +545,7 @@ function flashcardComMaisErros() {
 // ESTATÍSTICAS
 // =====================================
 
-function mostrarEstatisticas() {
+function mostrarDados() {
 
   let totalAcertos = 0;
   let totalErros = 0;
@@ -720,7 +720,7 @@ function mostrarMenu() {
 
       } else if (opcao === "11") {
 
-        mostrarEstatisticas();
+        mostrarDados();
 
       } else if (opcao === "12") {
 
